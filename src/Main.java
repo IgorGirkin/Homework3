@@ -1,13 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        byte allPaint = 120;
-        byte white=2;
-        byte brown=4;
-        int totalPremises=allPaint/(brown+white);
-        int allWhite=totalPremises*white;
-        int allBrown=totalPremises*brown;
-        System.out.println("В школе, где "+totalPremises+ " классов, нужно "+allWhite+" банок белой краски" +
-                " и "+allBrown+" банок коричневой краски.");
+        int weightBananas = 80;
+        int weightMilk100Ml =105;
+        int weightIceCream =100;
+        int weightEgg=70;
+        double breakfastWeight=weightBananas*5+weightMilk100Ml*2+weightIceCream*2+weightEgg*4;
+        System.out.println("Вес спорт-завтрака " +(breakfastWeight/1000)+" кг.");
 
     }
 }
