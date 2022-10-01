@@ -1,11 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int weightBananas = 80;
-        int weightMilk100Ml =105;
-        int weightIceCream =100;
-        int weightEgg=70;
-        double breakfastWeight=weightBananas*5+weightMilk100Ml*2+weightIceCream*2+weightEgg*4;
-        System.out.println("Вес спорт-завтрака " +(breakfastWeight/1000)+" кг.");
+        int needReset= 7;
+        needReset*=1000;
+        int lightWorkout =250;
+        int hardWorkout =500;
+        int averageWorkout=(hardWorkout+lightWorkout)/2;
+        System.out.println("Длительность тренеровки для похудяня (лекий режим) - спортсмен теряет "
+                +lightWorkout+ " г. в день, составит "+needReset/lightWorkout+" дней.");
+        System.out.println("Длительность тренеровки для похудяня (тяжелый режим) - спортсмен теряет "
+                +hardWorkout+ " г. в день, составит "+needReset/hardWorkout+" дней.");
+        System.out.println("В среднем, чтобы добиться результата похудения потребуется "+
+                (needReset%averageWorkout/lightWorkout+needReset/averageWorkout)+" дней.");
 
     }
 }
