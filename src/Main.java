@@ -1,13 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        byte allPaint = 120;
-        byte white=2;
-        byte brown=4;
-        int totalPremises=allPaint/(brown+white);
-        int allWhite=totalPremises*white;
-        int allBrown=totalPremises*brown;
-        System.out.println("В школе, где "+totalPremises+ " классов, нужно "+allWhite+" банок белой краски" +
-                " и "+allBrown+" банок коричневой краски.");
+        int lyudmilaPavlovna=23;
+        int annaSergeyevna=27;
+        int ekaterinaAndreevna=30;
+        int paperCount=480;
+        int paperPerPupil=paperCount/(lyudmilaPavlovna+annaSergeyevna+ekaterinaAndreevna);
+        System.out.println("На каждого ученика рассчитано "+paperPerPupil+" листов бумаги");
 
     }
 }
