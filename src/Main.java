@@ -12,6 +12,5 @@ public class Main {
         System.out.println("За сутки машина произвела бутылок " +day+" штук");
         System.out.println("За три дня машина произвела бутылок " +threeDays+ " штук");
         System.out.println("За месяц машина произвела бутылок " +month+ " штук");
-
     }
 }
