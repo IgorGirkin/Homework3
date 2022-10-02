@@ -13,5 +13,6 @@ public class Main {
         System.out.println("Значение переменной bigLong с типом int равно " + bigLong);
         System.out.println("Значение переменной floatingPoint с типом int равно " + floatingPoint);
         System.out.println("Значение переменной eightBytes с типом int равно " + eightBytes);
+
     }
 }
