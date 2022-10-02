@@ -10,6 +10,5 @@ public class Main {
                 +hardWorkout+ " г. в день, составит "+needReset/hardWorkout+" дней.");
         System.out.println("В среднем, чтобы добиться результата похудения потребуется "+
                 (needReset/lightWorkout+needReset/hardWorkout)/2+" дней.");
-
     }
 }
